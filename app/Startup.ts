@@ -4,6 +4,7 @@
 import  { platformBrowserDynamic } from "@angular/platform-browser-dynamic"
 import {movieModule} from "./movieModule";
 
+
 const platform = platformBrowserDynamic();
 platform.bootstrapModule(movieModule)
 

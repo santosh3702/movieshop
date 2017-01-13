@@ -1,5 +1,5 @@
 {
-  "name": "angular-quickstart",
+  "name": "MovieShop",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
@@ -17,6 +17,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "angular2": "2.0.0-beta.7",
     "@angular/common": "~2.4.0",
     "@angular/compiler": "~2.4.0",
     "@angular/core": "~2.4.0",
@@ -28,7 +29,6 @@
     "angular-in-memory-web-api": "~0.2.4",
     "core-js": "^2.4.1",
     "firebase-admin": "^4.0.4",
-    "firebase": "^3.4.0",
     "rxjs": "5.0.1",
     "systemjs": "0.19.40",
     "zone.js": "^0.7.4"

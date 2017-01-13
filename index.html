@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>Contact Form</title>
+    <base href="/">
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
     <!--optional bootstrap for faster styling-->
     <base href="/">
     <link rel="stylesheet" type="text/css"
@@ -20,9 +22,8 @@
 
     <!-- 2. Configure SystemJS -->
     <script src="./systemjs.config.js"></script>
-
     <script>
-        System.import('app/js/Startup').catch(function(err){ console.error(err); });
+        System.import('app').catch(function(err){ console.error(err); });
     </script>
 </head>
 <body>
